@@ -301,9 +301,9 @@ h5 {
 
 
 .home2-rooms {
-    padding: 40px 20px;
     background-color: #ffffff;
     text-align: center;
+    margin-top: -70px;
 }
 
 .home2-rooms h2 {
@@ -389,7 +389,7 @@ h5 {
 }
 
 /* Testimonials Section */
-.home2-testimonials {
+.home2-testimonials { 
     background-color: #ffffff;
     text-align: center;
 }
@@ -406,7 +406,7 @@ h5 {
 }
 
 .home2-testimonial {
-    width: 300px;
+   
     padding: 20px;
     margin: 0 10px;
     background-color: #f4f4f4;
@@ -461,8 +461,6 @@ h5 {
     color: white;
 }
 
-
-
 .home2-info {
     background-color: #fdf7f1;
     padding: 60px 0;
@@ -487,6 +485,66 @@ h5 {
     .info-box:hover {
         transform: translateY(-5px);
     }
+}
+
+
+.blog-section {
+    background-color: #f9f9f9;
+}
+
+.blog-section {
+display: flex;
+gap: 2rem;
+flex-wrap: wrap;
+}
+.main-article {
+flex: 1 1 50%;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.main-article img {
+width: 100%;
+height: auto;
+display: block;
+}
+.main-article-content {
+padding: 1rem;
+background-color: #fff;
+}
+.main-article-content small {
+color: #777;
+display: block;
+margin-bottom: 0.5rem;
+}
+.main-article-content h3 {
+margin: 0 0 0.5rem 0;
+font-size: 1.2rem;
+}
+.main-article-content p {
+color: #555;
+font-size: 0.95rem;
+}
+.main-article-content a {
+color: #4CAF50;
+text-decoration: none;
+font-weight: bold;
+}
+.side-articles {
+flex: 1 1 40%;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+.side-article {
+display: flex;
+gap: 1rem;
+align-items: flex-start;
+}
+.side-article img {
+    height: 150px;
+    border-radius: 10px;
 }
 
 

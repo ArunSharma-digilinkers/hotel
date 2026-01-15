@@ -1302,9 +1302,9 @@ h5 {
 }
 
 .home2-rooms {
-  padding: 40px 20px;
   background-color: #ffffff;
   text-align: center;
+  margin-top: -70px;
 }
 
 .home2-rooms h2 {
@@ -1408,7 +1408,6 @@ h5 {
 }
 
 .home2-testimonial {
-  width: 300px;
   padding: 20px;
   margin: 0 10px;
   background-color: #f4f4f4;
@@ -1480,6 +1479,75 @@ h5 {
 }
 .home2-info .info-box:hover {
   transform: translateY(-5px);
+}
+
+.blog-section {
+  background-color: #f9f9f9;
+}
+
+.blog-section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.main-article {
+  flex: 1 1 50%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.main-article img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main-article-content {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.main-article-content small {
+  color: #777;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.main-article-content h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.main-article-content p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.main-article-content a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.side-articles {
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.side-article {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.side-article img {
+  height: 150px;
+  border-radius: 10px;
 }
 
 .room-card {
@@ -1870,6 +1938,48 @@ h5 {
   color: #ffffff;
 }
 
+/* Updated dropdown menu appearance */
+.dropdown-menu {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 0.75rem 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  animation: dropdownFade 0.3s ease-in-out;
+  min-width: 180px;
+}
+
+/* Dropdown item style */
+.dropdown-item {
+  padding: 0.6rem 1.5rem;
+  color: #5a3921;
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f5e2d4;
+  color: #a4642e;
+  border-left: 4px solid #a4642e;
+}
+
+/* Divider spacing */
+.dropdown-divider {
+  margin: 0.4rem 1rem;
+}
+
+/* Fade animation */
+@keyframes dropdownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /*====================================================================
 	Navbar style 2 Dropdown nav
 =====================================================================*/
@@ -2277,6 +2387,12 @@ nav.side-nav .list-item .nav-item {
 /*===============================================================
 	About us page
 =================================================================*/
+.ab-header-box {
+  text-align: center;
+  padding: 0 100px;
+  margin-bottom: 40px;
+}
+
 .about-info-wrapper {
   padding: 5rem 0 0 0;
 }
@@ -2459,6 +2575,206 @@ nav.side-nav .list-item .nav-item {
   color: #fff;
   font-size: 50px;
   font-weight: 700;
+}
+
+.ab2-banner-wrap {
+  background-image: url("../img/ab2-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.62);
+}
+.ab2-banner-wrap h3 {
+  color: #fff;
+  font-size: 45px;
+}
+.ab2-banner-wrap p {
+  color: #fff;
+  line-height: 30px;
+}
+
+.journey {
+  background-color: #f6f6f6;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  width: 23%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.circle {
+  background-color: #a4642e;
+  color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.year-description {
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}
+
+.timeline-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -50%;
+  width: 100%;
+  height: 2px;
+  background-color: #8e6e53;
+  z-index: -1;
+}
+
+.arrow-width {
+  width: 60px;
+}
+
+.achievements {
+  background-image: url("../img/home-banner.jpg");
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 100px 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.achievements-title {
+  color: #fff;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.achievements-description {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.achievements-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.stat-item {
+  text-align: center;
+  width: 30%;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 16px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .achievements-stats {
+    flex-direction: column;
+  }
+  .stat-item {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+.philosopy-value-box {
+  display: flex;
+  margin-top: 30px;
+}
+.philosopy-value-box .img-box {
+  width: 120px;
+}
+.philosopy-value-box .txt-box {
+  margin-left: 20px;
+}
+
+.ab2-team-wrapper {
+  background-color: #f6f6f6;
+}
+.ab2-team-wrapper .team-section {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.ab2-team-wrapper .team-member {
+  position: relative;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+.ab2-team-wrapper .team-member:hover {
+  transform: translateY(-5px);
+}
+.ab2-team-wrapper .team-member img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.ab2-team-wrapper .overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+}
+.ab2-team-wrapper .overlay h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #f9c400; /* Highlight name */
+}
+.ab2-team-wrapper .overlay p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #ddd;
+}
+@media (max-width: 768px) {
+  .ab2-team-wrapper .team-section {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*===============================================================

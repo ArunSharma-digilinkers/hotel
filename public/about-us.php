@@ -166,7 +166,7 @@
 
         <!-- Card 1 -->
         <div class="ab-room-card">
-            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688" alt="">
+            <img src="img/ab-room-1.jpg"  class="img-fluid" alt="">
             <div class="ab-room-content">
                 <h3 class="ab-room-title">Deluxe Dark Room</h3>
 
@@ -187,7 +187,7 @@
 
         <!-- Card 2 -->
         <div class="ab-room-card">
-            <img src="https://images.unsplash.com/photo-1505691723518-36a5ac3be353" alt="">
+            <img src="img/ab-room-3.jpg" alt="">
             <div class="ab-room-content">
                 <h3 class="ab-room-title">Standard Big Room</h3>
 
@@ -208,7 +208,7 @@
 
         <!-- Card 3 -->
         <div class="ab-room-card">
-            <img src="https://images.unsplash.com/photo-1519710881625-00602a77bcd3" alt="">
+            <img src="img/ab-room-2.jpg" class="img-fluid" alt="">
             <div class="ab-room-content">
                 <h3 class="ab-room-title">Standard One Person Room</h3>
 

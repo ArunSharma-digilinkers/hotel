@@ -19,6 +19,10 @@ h5 {
   color: #000;
 }
 
+.page-section{
+    padding: 3rem 0;
+}
+
 .hm-hero-section {
 
 }
@@ -546,6 +550,172 @@ align-items: flex-start;
     height: 150px;
     border-radius: 10px;
 }
+
+
+//////////////////////////////// HOME 3 
+
+.hm3-category-wrapper {
+    background-color: #f6f6f6;
+
+    .cate-box {
+        border: 1px solid rgb(164 100 46);
+        text-align: center;
+        padding: 25px;
+        border-radius: 20px;
+
+        i{
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.hm3-info-wrapper {
+    background-color: #f6f6f6;  
+
+    img {
+        height: 100%;
+    }
+    
+    .value-points {
+       display: flex;
+
+       i {
+           background-color: #000;
+           color: #fff;
+           border-radius: 50%;
+           height: 30px;
+           width: 30px;
+           line-height: 30px;
+           text-align: center;
+       }
+
+       .ab-points {
+           color: #000;
+           font-size: 19px;
+           margin-left: 17px;
+       }
+   }
+}
+
+.blog-header {
+    text-align: center;
+    padding: 10px 86px;
+    margin-bottom: 25px;
+}
+
+.blog-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+
+    .blog-image {
+       position: relative;
+
+    .blog-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        }
+    }
+
+.blog-date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.2;
+
+    .date {
+        font-weight: bold;
+        font-size: 16px;
+        display: block;
+        }
+
+    .month {
+        font-size: 12px;
+        }
+    }
+
+
+.blog-content {
+  padding: 20px;
+
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #222;
+  }
+
+  p {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+}
+
+.blog-meta {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 2px;
+  transition: background 0.3s;
+}
+
+.read-more:hover {
+  background: #444;
+}
+
+}
+
+
+.hm3-cta-wrapper {
+   background-image: url('../img/cta3-background-img.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 100px 0;
+
+   .hm3-cta-box {
+        background-color: #a4642e;
+        padding: 35px;
+        border-radius: 20px;
+
+        h3 {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        p {
+            color: #fff;
+            font-weight: 300;
+        }
+   }
+
+}
+
+
+
 
 
 //////////////////////// Room //////////////////////

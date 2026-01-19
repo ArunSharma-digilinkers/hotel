@@ -17,6 +17,8 @@
                         <li><a class="dropdown-item" href="index">Home 1</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="index-2">Home 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="index-3">Home 3</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -25,6 +27,8 @@
                         <li><a class="dropdown-item" href="about-us">About 1</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="about-us2">About 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="about-us3">About 3</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">

@@ -8,9 +8,11 @@
 <main class="s1">
 	<div class="main-wrapper">
 
-	<div class="banner-wrap">
-		<img src="img/about-banner.jpg" class="img-fluid">
-	</div>
+	<div class="page-banner-wrap page-banner-fixed">
+		<div class="auto-container">
+			<h2>About Us 1</h2>
+		</div>
+    </div>
 
 
 	<div class="about-info-wrapper">

@@ -9,68 +9,172 @@
 	<div class="main-wrapper">
 
 
-    <!-- <section class="ab3-section">
-      <h2>Our Journey</h2>
-      <div class="ab3-timeline">
-        <div class="ab3-timeline-item">
-          <h4>2008</h4>
-          <p>Our humble beginnings with a commitment to exceptional service.</p>
+  <div class="page-banner-wrap page-banner-fixed">
+    <div class="auto-container">
+        <h2>About Us 3</h2>
+    </div>
+  </div>
+
+
+  <div class="ab3-who-wrapper section-entry">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 co-md-12 col-sm-12">
+                  <div class="who-box">
+                      <h3>Who Are We</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima necessitatibus minus obcaecati blanditiis hic modi provident enim dicta consequatur quia quod ex porro quibusdam, error, voluptas exercitationem maxime asperiores omnis dolorem? Autem, dolores inventore. Iste, explicabo beatae quod similique natus ullam, praesentium error quidem dicta est ducimus, fuga hic exercitationem!
+                      </p>
+                  </div>
+                  <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h4>Your Trusted Partner in Exceptional Hospitality</h4>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reiciendis ex distinctio vel nemo aut quos error officiis labore delectus dolore laudantium ratione tempore rerum dicta quaerat, incidunt libero ea molestias est cumque vero doloribus voluptatum? Officiis illum saepe quidem dolorum esse temporibus illo quae, reiciendis, nihil voluptatibus eum maiores qui quis unde, eius magnam expedita cupiditate fuga facilis earum?
+                              </p>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum suscipit facere officia exercitationem ipsa distinctio placeat eligendi voluptate id error similique blanditiis labore, quasi magnam sequi consequuntur et excepturi.
+                              </p>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-12">
+                              <img src="img/ab3-info-img.jpg" class="img-fluid br20">
+                          </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+    <div class="ab3-why-wrapper section-entry">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="why-choose-box">
+                        <h3>Why Choose Us</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ducimus nesciunt distinctio iusto explicabo dignissimos dolores tenetur a qui nam minus id necessitatibus vel laudantium assumenda cupiditate eveniet rem rerum.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="ab3-timeline-item">
-          <h4>2015</h4>
-          <p>Expanded to new locations with increasing guest satisfaction.</p>
-        </div>
-        <div class="ab3-timeline-item">
-          <h4>2022</h4>
-          <p>Continued innovation in hospitality management.</p>
+    </div>
+
+    <div class="why-wrap">
+       <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="why-box">
+                      <div class="img-box">
+                          <img src="img/guest-support-img.png" class="img-fluid">
+                      </div>
+                      <h5>24/7 Guest Support </h5>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolores ullam possimus?</p>
+                  </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="why-box">
+                      <div class="img-box">
+                          <img src="img/staff-img.png" class="img-fluid">
+                      </div>
+                      <h5>Trained & Friendly staff</h5>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolores ullam possimus?</p>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="why-box">
+                      <div class="img-box">
+                          <img src="img/prime-location.png" class="img-fluid">
+                      </div>
+                      <h5>Prime Location</h5>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolores ullam possimus?</p>
+                  </div>
+              </div>
+          </div>
+       </div>
+    </div>
+
+
+    
+    <div class="ab3-timeline-wrapper section-entry">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+               <img src="img/ab3-journey-img.jpg" class="img-fluid br20">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <section class="ab3-journey-box">
+                  <h3>Our Journey</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat enim officia pariatur magnam molestias eaque inventore non molestiae consequuntur! Quis!</p>
+                  <div class="ab3-timeline">
+                    <div class="ab3-timeline-item">
+                      <h4>2008</h4>
+                      <p>Our humble beginnings with a commitment to exceptional service.</p>
+                    </div>
+                    <div class="ab3-timeline-item">
+                      <h4>2015</h4>
+                      <p>Expanded to new locations with increasing guest satisfaction.</p>
+                    </div>
+                    <div class="ab3-timeline-item">
+                      <h4>2022</h4>
+                      <p>Continued innovation in hospitality management.</p>
+                    </div>
+                  </div>
+                </section>
+            </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="section">
-      <h2>What Sets Us Apart</h2>
-      <div class="ab3-milestones">
-        <div class="ab3-milestone">
-          <h4>+15 Years Experience</h4>
-          <span>Decades of hospitality excellence</span>
-        </div>
-        <div class="ab3-milestone">
-          <h4>500+ Hotel Partners</h4>
-          <span>Global partnerships</span>
-        </div>
-        <div class="ab3-milestone">
-          <h4>98% Client Retention</h4>
-          <span>Happy guests who return</span>
-        </div>
-      </div>
-    </section>
 
-    <section class="section">
-      <h2>Meet Our Expert Team</h2>
-      <div class="ab3-team-container">
-        <div class="ab3-team-member">
-          <img src="https://via.placeholder.com/230x200" alt="Olivier Dufresne" />
-          <h3>Olivier Dufresne</h3>
-          <p>Manager</p>
-        </div>
-        <div class="ab3-team-member">
-          <img src="https://via.placeholder.com/230x200" alt="Mia Schmidt" />
-          <h3>Mia Schmidt</h3>
-          <p>Reception Manager</p>
-        </div>
-        <div class="ab3-team-member">
-          <img src="https://via.placeholder.com/230x200" alt="Julien Moreau" />
-          <h3>Julien Moreau</h3>
-          <p>Operations Manager</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="ab3-cta">
-      <h3>Ready to Take Your Hotel to the Next Level?</h3>
-      <p>Get in touch with our team to learn more about how we can streamline your operations and enhance your guest experience.</p>
-      <a href="#" class="btn">Contact Us</a>
-    </section> -->
+    <div class="home-testimonials-wrap section-entry">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 p-0"></div>
+           
+					<div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="testimonials owl-carousel owl-theme">
+                            <div class="item">
+								<div class="testimonials-card">
+									<div class="review-details">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cumque? Ex perferendis provident non autem, placeat ea officiis harum impedit. Lorem ipsum dolor sit amet.
+										</p>
+									</div>
+									<div class="testimonial-info">
+										<div class="review-title">
+											<h5>Rakesh Mehta</h5>
+											<h6>Happy Client</h6>
+										</div>
+										<div class="review-img">
+											<img src="<?php echo $path; ?>img/profile-2.png" alt="client review" class="img-fluid">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimonials-card">
+									<div class="review-details">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cumque? Ex perferendis provident non autem, placeat ea officiis harum impedit. Lorem ipsum dolor sit amet.
+										</p>
+									</div>
+									<div class="testimonial-info">
+										<div class="review-title">
+											<h5>Praveen Dubey</h5>
+											<h6>Happy Client</h6>
+										</div>
+										<div class="review-img">
+											<img src="<?php echo $path; ?>img/profile-2.png" alt="client review" class="img-fluid">
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 
@@ -78,6 +182,7 @@
 
 
         <div>
+</div>
 </main>
 
 <?php include_once(TEMPLATE_FRONT . DS . 'footer.php'); ?>

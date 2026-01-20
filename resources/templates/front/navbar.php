@@ -31,6 +31,9 @@
                         <li><a class="dropdown-item" href="about-us3">About 3</a></li>
                     </ul>
                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $path; ?>service">Services</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rooms</a>
                     <ul class="dropdown-menu">

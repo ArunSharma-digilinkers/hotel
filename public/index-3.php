@@ -102,15 +102,48 @@
                                 <button class="check-btn">Check Availability</button>
                             </div>
 
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-12 mt-4">
+                            <div class="row hm3-percentage">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="about-bg-box">
+                                    <div class="about-bg-text-box">
+                                        <h4>Our Expertise in Hotel Management and Operations</h4>
+                                        <p>
+                                            Delivering outstanding service and ensuring seamless operations to create exceptional guest experiences.
+                                        </p>
+                                    </div>
+								<div class="percentage-text-box">
+									<h6>Guest Services & Experience</h6>
+								</div>
+								<div class="progress text-center">
+									<div class="line-progress" data-percent="85" data-toggle="tooltip" data-html="true"
+										data-placement="top" title="Property Score"></div>
+								</div>
+								<div class="percentage-text-box">
+									<h6>Facility Management & Maintenance</h6>
+								</div>
+								<div class="progress text-center">
+									<div class="line-progress" data-percent="95" data-toggle="tooltip" data-html="true"
+										data-placement="top" title="Property Score"></div>
+								</div>
+								<div class="percentage-text-box">
+									<h6>Event Planning & Coordination</h6>
+								</div>
+								<div class="progress text-center">
+									<div class="line-progress" data-percent="85" data-toggle="tooltip" data-html="true"
+										data-placement="top" title="Property Score"></div>
+								</div>
+								<div class="percentage-text-box">
+									<h6>Revenue & Profit Optimization</h6>
+								</div>
+								<div class="progress text-center">
+									<div class="line-progress" data-percent="90" data-toggle="tooltip" data-html="true"
+										data-placement="top" title="Property Score"></div>
+								</div>
+							</div>
+						</div>
+                         <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
                                     <img src="img/hm-info-img.jpg" class="img-fluid br20">
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 mt-4">
-                                    <img src="img/hm-info-img.jpg" class="img-fluid br20">
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 mt-4">
-                                    <img src="img/hm-info-img.jpg" class="img-fluid br20">
                                 </div>
                             </div>
                         </div>

@@ -8,8 +8,14 @@
 <main class="s1">
 	<div class="main-wrapper">
 
+    <div class="page-banner-wrap page-banner-fixed">
+        <div class="auto-container">
+            <h2>About Us 2</h2>
+        </div>
+  </div>
 
-	<div class="ab2-banner-wrap section-entry">
+
+	<!-- <div class="ab2-banner-wrap section-entry">
 		<div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12">
@@ -20,7 +26,7 @@
                 </div>
             </div>
         </div>
-	</div>
+	</div> -->
 
 
 

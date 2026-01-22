@@ -21,6 +21,14 @@ $('.testimonials').owlCarousel({
     }
 })
 
+
+
+function changeImage(imageElement) {
+    var largeImage = document.getElementById("large-image");
+    largeImage.src = imageElement.src;
+}
+
+
 //////// Change theme light-dark mode
 //Toggle class dark on body
 // Run script only on pages where theme button is given

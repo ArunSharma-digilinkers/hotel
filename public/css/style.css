@@ -1704,6 +1704,18 @@ h5 {
   margin-top: 15px;
 }
 
+.service-box {
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.service-box img {
+  width: 75px;
+  margin-bottom: 10px;
+}
+
 .room-card {
   display: flex;
   border: 1px solid #f0f0f0;
@@ -1786,6 +1798,110 @@ h5 {
 
 .view-details:hover {
   background-color: #ff9f3d;
+}
+
+.amenity-item {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.check-icon {
+  color: #4CAF50; /* Green for checked items */
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.cross-icon {
+  color: #f44336; /* Red for unchecked items */
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.room2-card {
+  background-color: white;
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.room2-card:hover {
+  transform: translateY(-5px);
+}
+
+.room2-image {
+  position: relative;
+}
+
+.price-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff9500;
+  color: white;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.booking-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.booking-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.booking-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form input, .booking-form select {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-book {
+  background-color: #ff9500;
+  color: white;
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+  background-color: #ff7f00;
+}
+
+.advanced-booking {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #ff9500;
+}
+
+.advanced-booking:hover {
+  text-decoration: underline;
 }
 
 /*====================================================================
@@ -1899,7 +2015,7 @@ h5 {
 }
 
 .newsletter-form button {
-  background-color: black;
+  background-color: #a4642e;
   color: white;
   border: none;
   padding: 8px 12px;
@@ -3151,11 +3267,37 @@ nav.side-nav .list-item .nav-item {
   margin-left: 35px;
 }
 
-.contact-form {
-  width: 100%;
+.form-contact-wrapper {
+  background-color: #f6f6f6;
+}
+.form-contact-wrapper h4 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.form-contact-wrapper .contact-form {
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 30px;
   border-radius: 15px;
   font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+}
+
+.contact-section__widget {
+  margin-bottom: 1rem;
+  background-color: #a4642e;
+  padding: 25px;
+  border-radius: 15px;
+  height: 100%;
+  text-align: center;
+}
+.contact-section__widget h5 {
+  color: #fff;
+  font-weight: 600;
+}
+.contact-section__widget p, .contact-section__widget a {
+  color: #fff;
+}
+.contact-section__widget span {
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -37,13 +37,19 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rooms</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="room">Room</a></li>
+                        <li><a class="dropdown-item" href="room-split">Room List</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="room">Room split</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $path; ?>contact-us">Contact</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact us</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="contact-us">Contact 1</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="contact-us2">Contact 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                    </ul>
                 </li>
                 <!-- <button class="check-btn">
                     get in touch

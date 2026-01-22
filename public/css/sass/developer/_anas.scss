@@ -734,6 +734,22 @@ align-items: flex-start;
 }
 
 
+// SERVICE PAGE CSS //
+
+.service-box {
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+    img {
+        width: 75px;
+        margin-bottom: 10px;
+    }
+}
+
+
 //////////////////////// Room //////////////////////
 
 .room-card {
@@ -817,4 +833,118 @@ align-items: flex-start;
 
 .view-details:hover {
     background-color: #ff9f3d;
+}
+
+
+
+
+
+
+.amenity-item {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.check-icon {
+    color: #4CAF50; /* Green for checked items */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.cross-icon {
+    color: #f44336; /* Red for unchecked items */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+
+.room2-card {
+    background-color: white;
+    width: 300px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.room2-card:hover {
+    transform: translateY(-5px);
+}
+
+.room2-image {
+    position: relative;
+}
+
+.price-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff9500;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+.booking-form {
+    
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form input, .booking-form select {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-book {
+    background-color: #ff9500;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+    background-color: #ff7f00;
+}
+
+.advanced-booking {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #ff9500;
+}
+
+.advanced-booking:hover {
+    text-decoration: underline;
 }

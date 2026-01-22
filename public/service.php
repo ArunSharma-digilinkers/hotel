@@ -15,6 +15,45 @@
     </div>
 
 
+    <div class="our-service-wrap section-entry">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h3>Our Premier Hotel Management Services</h3>
+                    <h5>Elevating Your Hospitality Experience with Expert Care and Attention</h5>
+                    <p>
+                        At Our Hotel, we offer a comprehensive suite of hotel management services designed to deliver exceptional guest experiences and streamline operations. Our team of skilled professionals ensures top-tier service, from property management and staffing to marketing and guest relations. Whether you’re looking to enhance guest satisfaction, optimize your operations, or increase your revenue, we tailor our solutions to meet your unique needs. With years of experience and a commitment to excellence, we’re dedicated to helping your hotel reach its full potential.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="service-box">
+                            <img src="img/room-service-img.png" class="img-fluid">
+                            <h4>Room Service</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="service-box">
+                            <img src="img/wifi-img.png" class="img-fluid">
+                            <h4>Fast wifi service</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="service-box">
+                            <img src="img/parking-img.png" class="img-fluid">
+                            <h4>Free parking</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="service-box">
+                            <img src="img/food-img.png" class="img-fluid">
+                            <h4>Food & Drinks </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="explore-wrapper section-entry">

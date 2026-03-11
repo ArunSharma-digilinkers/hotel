@@ -10,17 +10,15 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
 
+		<!-- Basic carousal -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"/>
+		
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="<?php echo $path; ?>css/bootstrap.min.css" >
 
-        <!-- Basic corousal -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"/>
 
 		<!-- Link Swiper's CSS -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-		<!-- aos CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 		<!-- Animate CSS -->
 		<link rel="stylesheet" href="<?php echo $path; ?>css/animate.min.css" >
@@ -29,7 +27,7 @@
 		<link rel="stylesheet" href="<?php echo $path; ?>css/all.min.css" >
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="<?php echo $path; ?>css/style.css" >
+		<link rel="stylesheet" href="<?php echo $path; ?>css/style.css">
 
 		<title><?php echo $company; ?></title>
 	</head>

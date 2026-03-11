@@ -9,31 +9,33 @@
 	<div class="main-wrapper">
 
 
-<section class="hero">
-        <div class="hero-content">
-            <h1>Simplify Hotel Management. Elevate Every Guest Experience</h1>
-            <p>
-                Smart tools and expert support to streamline operations, boost bookings, and delight your guests — all in one platform.
-            </p>
-            <form class="booking-form">
-                <input type="date" id="check-in" placeholder="Check-in">
-                <input type="date" id="check-out" placeholder="Check-out">
-                <input type="number" id="guests" placeholder="Guests">
-                <button type="submit">Check Availability</button>
-            </form>
-        </div>
-    </section>
+        <section class="hero">
+            <div class="hero-content">
+                <h5>Your Perfect Escape Starts Here</h5>
+                <h1>Discover comfort, elegance, and world-class hospitality.</h1>
+                <!-- <p>
+                    Experience a perfect blend of luxury and relaxation in our beautifully designed hotel. From premium rooms to exceptional service, every moment of your stay is crafted to deliver comfort, elegance, and unforgettable memories.
+                </p> -->
+                <form class="banner-booking-form">
+                    <input type="date" id="check-in" placeholder="Check-in">
+                    <input type="date" id="check-out" placeholder="Check-out">
+                    <input type="number" id="guests" placeholder="Guests">
+                    <button type="submit">Check Availability</button>
+                </form>
+            </div>
+        </section>
 
 
         <div class="home2-info section-entry">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12 mb-4 mb-md-0">
-                        <div class="hm2-info-img-wrap">
-                           <img src="img/hm-2-ifo-img.jpg" class="img-fluid br15" alt="Coffee Brewing Image">
+                        <div class="info-img-wrap">
+                           <!-- <img src="img/hm2-info-img.jpg" class="img-fluid br15" alt="Coffee Brewing Image"> -->
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-12">
+                        
                         <h5>Elevating Your Stay with Thoughtfully Crafted Experiences</h5>
                         <h3>Creating Comfort, One Guest at a Time</h3>
 
@@ -64,97 +66,148 @@
             </div>
         </div>
 
-        <section class="home2-booking section-entry">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h2>Smarter Management. Happier Guests. Stronger Profits.</h2>
-                    <p>
-                        Managing a hotel today means more than just rooms and reservations — it’s about creating seamless guest experiences while maximizing operational efficiency. Our all-in-one hotel management solutions are built to help you streamline front desk operations, boost occupancy rates, and deliver 5-star service every time.
-                    </p>
 
-                    <div class="hm-btn mt-4">
-						<a href="">Book Now</a>
-					</div>
-               </div>
+        <section class="home2-booking section-entry">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h2>Smarter Management. Happier Guests. Stronger Profits.</h2>
+                        <p>
+                            Managing a hotel today means more than just rooms and reservations — it’s about creating seamless guest experiences while maximizing operational efficiency. Our all-in-one hotel management solutions are built to help you streamline front desk operations, boost occupancy rates, and deliver 5-star service every time.
+                        </p>
+
+                        <div class="hm-btn mt-4">
+                            <a href="">Book Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
     <!-- Amenities & Services -->
     <section class="home2-amenities section-entry">
         <div class="container">
             <div class="row">
-                <d0iv class="header-box mb-4">
+                <div class="header-box mb-4">
                      <h3>Amenities & Services</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At accusantium voluptas est consectetur a maxime ducimus quod reprehenderit ut dolor! Perferendis tenetur quisquam accusantium repudiandae?</p>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. At accusantium voluptas est consectetur a maxime ducimus quod reprehenderit ut dolor! Perferendis tenetur quisquam accusantium repudiandae?
+                     </p>
                 </div>
 
-                <div class="home2-amenities-list">
-                    <div class="home2-amenity">
-                        <img src="img/luxury-bg-img.jpg" alt="Spa">
-                        <p>
-                            Spa & Wellness
-                        </p>
+                <div class="hm2-amenities owl-carousel owl-theme">
+                    <div class="item test-wrap">
+                        <div class="home-amenities-wrap">
+                            <div class="img-box">
+                                <img src="img/deluxe-rooms.jpg" alt="Spa">
+                            </div>
+                            <div class="txt-box">
+                                <h4>
+                                    Deluxe Rooms
+                                </h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="home2-amenity">
-                        <img src="img/fine-dining-img.jpg" alt="Dining">
-                        <p>
-                            Fine Dining
-                        </p>
+                    <div class="item test-wrap">
+                        <div class="home-amenities-wrap">
+                            <div class="img-box">
+                                <img src="img/fine-dining-img.jpg" alt="Spa">
+                            </div>
+                            <div class="txt-box">
+                                <h4>
+                                    Spa & Wellness
+                                </h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="home2-amenity">
-                        <img src="img/pool-img.jpg" alt="Pool">
-                        <p>
-                            Swimming Pool
-                        </p>
+                    <div class="item test-wrap">
+                        <div class="home-amenities-wrap">
+                            <div class="img-box">
+                                <img src="img/pool-img.jpg" alt="Spa">
+                            </div>
+                            <div class="txt-box">
+                                <h4>
+                                    Swimming Pool
+                                </h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="home2-amenity">
-                        <img src="img/event-space-img.jpg" alt="Event Space">
-                        <p>
-                            Event Spaces
-                        </p>
+                    <div class="item test-wrap">
+                        <div class="home-amenities-wrap">
+                            <div class="img-box">
+                                <img src="img/event-space-img.jpg" alt="Spa">
+                            </div>
+                            <div class="txt-box">
+                                <h4>
+                                    Event Spaces
+                                </h4>
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
     </section>
 
 
-
-    <div class="hotel-img-wrap">
-        <img src="img/home2-big-img.jpg" class="img-fluid">
+    <div class="hotel-img-wrap section-entry">
+        <div class="container">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="home2-rooms-header">
+                    <h3>Find the Perfect Room for Your Journey</h3>
+                    <p>
+                        Whether you're traveling for business, leisure, or a family vacation, our hotel offers a variety of thoughtfully designed rooms to suit your needs. From elegant suites with stunning views to cozy standard rooms equipped with modern comforts, each accommodation is tailored to deliver a restful and memorable experience. Explore our room categories below to find the ideal space for your stay — comfort, style, and convenience included.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 
 
-
     <!-- Our Exclusive Rooms -->
-    <section class="home2-rooms mb-4">
+    <section class="home2-rooms mb-4"> 
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="home2-room-card">
-                        <img src="img/luxury-bg-img.jpg" alt="Room 1">
-                        <h3>Luxury Suite</h3>
-                        <p>Spacious with stunning views</p>
-                        <a href="#">Book Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="home2-room-card">
-                        <img src="img/luxury-bg-img.jpg" alt="Room 2">
-                        <h3>Deluxe Room</h3>
-                        <p>Elegant and cozy</p>
-                        <a href="#">Book Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="home2-room-card">
-                        <img src="img/luxury-bg-img.jpg" alt="Room 3">
-                        <h3>Standard Room</h3>
-                        <p>Comfortable and affordable</p>
-                        <a href="#">Book Now</a>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="hm2-Rooms owl-carousel owl-theme mt120">
+                        <div class="item test-wrap">
+                            <div class="home2-room-card">
+                                <img src="img/hm2-luxury-suite.jpg" alt="Room 1">
+                                <h3>Luxury Suite</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni officia voluptatem iste, ut recusandae perferendis aperiam quis temporibus, veniam necessitatibus ex ad suscipit. Nulla?
+                                </p>
+                                <div class="hm-btn-1">
+                                   <a href="#">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item test-wrap">
+                            <div class="home2-room-card">
+                                <img src="img/hm2-deluxe-room.jpg" alt="Room 2">
+                                <h3>Deluxe Room</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni officia voluptatem iste, ut recusandae perferendis aperiam quis temporibus, veniam necessitatibus ex ad suscipit. Nulla?
+                                </p>
+                                <div class="hm-btn-1">
+                                   <a href="#">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item test-wrap">
+                            <div class="home2-room-card">
+                                <img src="img/penthouse-img.jpg" alt="Room 2">
+                                <h3>Penthouse</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni officia voluptatem iste, ut recusandae perferendis aperiam quis temporibus, veniam necessitatibus ex ad suscipit. Nulla?
+                                </p>
+                                <div class="hm-btn-1">
+                                   <a href="#">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,7 +221,9 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
                     <h5>Our Blog Section</h5>
                     <h3>Insights from the World of Hospitality</h3>
-                    <p>Stay updated with the latest in hospitality innovation, guest experience strategies, and operational excellence. From boutique transformations to tech-driven service upgrades, our blog explores how successful hotels are adapting, thriving, and redefining guest satisfaction in a fast-evolving industry.</p>
+                    <p>
+                        Stay updated with the latest in hospitality innovation, guest experience strategies, and operational excellence. From boutique transformations to tech-driven service upgrades, our blog explores how successful hotels are adapting, thriving, and redefining guest satisfaction in a fast-evolving industry.
+                    </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="main-article">
@@ -186,7 +241,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="side-articles">
                         <div class="side-article">
-                            <img src="img/hm-2-ifo-img.jpg" alt="Article 1" />
+                            <img src="img/deluxe-rooms.jpg" alt="Article 1" />
                             <div class="side-article-content">
                             <h5>Hotels Go Beyond Accommodation to Create Memorable Stays</h5>
                             <p>Discover how hotels not only provide a place to stay, but also create memorable experiences for...</p>
@@ -194,7 +249,7 @@
                             </div>
                         </div>
                         <div class="side-article">
-                            <img src="img/hm-2-ifo-img.jpg" alt="Article 2" />
+                            <img src="img/deluxe-rooms.jpg" alt="Article 2" />
                             <div class="side-article-content">
                             <h5>Luxury Reimagined: Iconic Hotels Undergo Stunning Renovations</h5>
                             <p>Be enchanted by the extraordinary transformations experienced by iconic hotels through...</p>
@@ -202,7 +257,7 @@
                             </div>
                         </div>
                         <div class="side-article">
-                            <img src="img/hm-2-ifo-img.jpg" alt="Article 3" />
+                            <img src="img/deluxe-rooms.jpg" alt="Article 3" />
                             <div class="side-article-content">
                             <h5>Preserving History Through Unique Accommodations</h5>
                             <p>Reveals how heritage hotels preserve history through unique accommodations, providing a cultural...</p>
@@ -213,43 +268,6 @@
                 </div>
             </div>
     </section>
-
-
-    <!-- Customer Testimonials -->
-    <section class="home2-testimonials section-entry">
-        <div class="container">
-            <div class="row">
-
-                <h2>What Our Guests Say</h2>
-                <div class="home2-testimonial-slider">
-                    <div class="home2-testimonial">
-                        <p>
-                            "The best experience I’ve ever had! The staff was incredible and the view was breathtaking!"
-                        </p>
-                        <p>- John Doe</p>
-                    </div>
-                    <div class="home2-testimonial">
-                        <p>
-                            "A luxurious escape that felt like home. I will definitely return!"
-                        </p>
-                        <p>- Jane Smith </p>
-                            
-                        </p>
-                    </div>
-                    <div class="home2-testimonial">
-                        <p>
-                            "Outstanding service and facilities. Highly recommend to anyone looking for a 5-star stay!"
-                        </p>
-                        <p>- Emily Green</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
-    
-
 
 
 

@@ -1,26 +1,45 @@
 'use strict';
 
 
-$('.testimonials').owlCarousel({
+$('.hm2-amenities').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-	autoplay:true,
-	autoplayTimeout:3000,
-	autoplayHoverPause:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:1
+            items:3
         },
         1000:{
-            items:1
+            items:3
         }
     }
 })
 
+$('.hm2-Rooms').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
 
 
 function changeImage(imageElement) {

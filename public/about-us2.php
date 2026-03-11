@@ -151,7 +151,7 @@
                 </div>
 
                 <div class="team-member">
-                <img src="img/manager-img.jpg" alt="Aakash Deep">
+                <img src="img/frot-desk.jpg" alt="Aakash Deep">
                 <div class="overlay">
                     <h3>Isabella Ferrara</h3>
                     <p>Manager</p>
@@ -167,7 +167,7 @@
                 </div>
 
                 <div class="team-member">
-                <img src="img/manager-img.jpg" alt="Abhishek Kumar">
+                <img src="img/house-staff.jpg" alt="Abhishek Kumar">
                 <div class="overlay">
                     <h3>Mia Schmidt</h3>
                     <p>Manager</p>

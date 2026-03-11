@@ -92,7 +92,7 @@
                     <div class="col-lg-5 col-md-5 col-sm-12">
                         <!-- Booking Form Section -->
                         <div class="booking-form">
-                            <h2>Book Online</h2>
+                            <h3>Book Online</h3>
                             <form>
                                 <input type="text" placeholder="Enter Your Name" required>
                             
@@ -121,6 +121,15 @@
                                 <button type="submit" class="btn-book">BOOK A ROOM NOW</button>
                                 <a href="#" class="advanced-booking">Advanced Booking Form</a>
                             </form>
+                        </div>
+                        <div class="room-offer-wrap">
+                            <h3>Exclusive Offer – Book Your Stay at Unbeatable Rates!</h3>
+                            <p>
+                                Take advantage of our limited-time offer and enjoy luxurious accommodations at a price you won’t find anywhere else. Experience top-tier service and comfort with special discounts just for you.
+                            </p>
+                            <!-- <div class="room-cta">
+                                <a  href=""></a>
+                            </div> -->
                         </div>
                     </div>
                 </div>

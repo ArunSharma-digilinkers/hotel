@@ -27,7 +27,7 @@
 }
 
 .value-wrapper {
-    background-color: #f6f6f6;
+    background-color: $color-background;
     padding: 2rem 0;
 
         .value-box {
@@ -50,7 +50,7 @@
 
 
 .room-wrapper {
-    background-color: #f6f6f6;
+    background-color: $color-background;
 }
 
 .ab-room-grid{
@@ -255,7 +255,7 @@
 
 
 .journey {
-  background-color: #f6f6f6;
+  background-color: $color-background;
 }
 
 .container {

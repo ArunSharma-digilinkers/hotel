@@ -918,8 +918,7 @@ body.dark .c-btn:hover {
   top: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   z-index: 100;
   transition: all 0.5s;
 }
@@ -1052,7 +1051,7 @@ h5 {
 }
 
 .page-section {
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 .hero-bar {
@@ -1085,7 +1084,7 @@ h5 {
 }
 
 .explore-wrapper {
-  background-color: #f6f6f6;
+  background-color: #fdf7f1;
 }
 
 .head-box {
@@ -1262,169 +1261,59 @@ h5 {
 
 /* Hero Section */
 .hero {
-  position: relative;
-  height: 100vh;
   background-image: url("../img/hero-banner-h2.jpg");
-  background-size: cover;
   background-position: center;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.65);
+  padding: 180px;
 }
-
 .hero h1 {
   margin-bottom: 10px;
   color: #fff;
   font-weight: 800;
+  text-transform: uppercase;
 }
-
-.hero p {
-  margin-bottom: 20px;
+.hero h5 {
   color: #fff;
 }
 
-.booking-form input, .booking-form button {
+.banner-booking-form input, .banner-booking-form button {
   padding: 10px;
   margin: 5px;
   font-size: 1rem;
 }
 
-.booking-form button {
+.banner-booking-form button {
   background-color: #a4642e;
   border: none;
   color: white;
   cursor: pointer;
 }
 
-.booking-form button:hover {
+.banner-booking-form button:hover {
   background-color: #ff5722;
 }
 
-.home2-rooms {
-  background-color: #ffffff;
-  text-align: center;
-  margin-top: -70px;
+.info-img-wrap {
+  background-image: url("../img/hm2-info-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border-radius: 20px;
 }
 
-.home2-rooms h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.home2-room-cards {
-  display: flex;
-  justify-content: space-around;
-}
-
-.home2-room-card {
-  background-color: #f4f4f4;
+.home2-info .info-box {
+  background: #fdf7f1;
+  border-radius: 15px;
   padding: 20px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  height: 100%;
+  transition: transform 0.3s ease;
 }
-
-.home2-room-card img {
-  width: 100%;
-  height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 8px;
-}
-
-.home2-room-card h3 {
-  margin-top: 15px;
-  font-size: 1.5rem;
-}
-
-.home2-room-card a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #ff7043;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.home2-room-card a:hover {
-  background-color: #ff5722;
-}
-
-/* Amenities Section */
-.home2-amenities {
-  background-color: #f9f9f9;
-  text-align: center;
-}
-
-.home2-amenities h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.home2-amenities-list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.home2-amenity {
-  width: 20%;
-  padding: 20px;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-}
-
-.home2-amenity img {
-  width: 100px;
-  height: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 50%;
-}
-
-.home2-amenity p {
-  margin-top: 10px;
-  font-size: 1rem;
-}
-
-/* Testimonials Section */
-.home2-testimonials {
-  background-color: #ffffff;
-  text-align: center;
-}
-
-.home2-testimonials h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.home2-testimonial-slider {
-  display: flex;
-  overflow: hidden;
-  justify-content: center;
-}
-
-.home2-testimonial {
-  padding: 20px;
-  margin: 0 10px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.home2-testimonial p {
-  font-style: italic;
-}
-
-.home2-testimonial p:first-child {
-  font-weight: bold;
+.home2-info .info-box:hover {
+  transform: translateY(-5px);
 }
 
 /* Booking Section */
@@ -1466,27 +1355,80 @@ h5 {
   color: white;
 }
 
-.home2-info {
+.hotel-img-wrap {
+  background-image: url("../img/home2-big-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+}
+.hotel-img-wrap h3, .hotel-img-wrap p {
+  color: #fff;
+}
+
+/* Amenities Section */
+.home2-amenities {
   background-color: #fdf7f1;
-  padding: 60px 0;
+  text-align: center;
 }
-.home2-info .hm2-info-img-wrap img {
-  border-radius: 20px;
+.home2-amenities .home-amenities-wrap {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
 }
-.home2-info .info-box {
-  background: #fff;
-  border-radius: 15px;
+.home2-amenities img {
+  border-radius: 5px;
+}
+.home2-amenities h4 {
+  font-size: 23px;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.home2-rooms {
+  background-color: #ffffff;
+}
+.home2-rooms .home2-room-card {
+  background-color: #fdf7f1;
   padding: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  height: 100%;
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
-.home2-info .info-box:hover {
-  transform: translateY(-5px);
+.home2-rooms .home2-room-card h3 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.home2-rooms .home2-room-card p {
+  margin-bottom: 30px;
+}
+.home2-rooms .home2-room-card .hm-btn-1 {
+  margin-bottom: 20px;
+}
+.home2-rooms .home2-room-card .hm-btn-1 a {
+  padding: 12px 20px;
+  background-color: #a4642e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.home2-rooms .home2-room-card .hm-btn-1 a:hover {
+  background-color: #000;
+}
+
+.mt120 {
+  margin-top: -120px;
 }
 
 .blog-section {
-  background-color: #f9f9f9;
+  background-color: #fdf7f1;
 }
 
 .blog-section {
@@ -1555,21 +1497,23 @@ h5 {
 }
 
 .hm3-category-wrapper {
-  background-color: #f6f6f6;
+  background-color: #fdf7f1;
 }
 .hm3-category-wrapper .cate-box {
-  border: 1px solid rgb(164, 100, 46);
   text-align: center;
   padding: 25px;
-  border-radius: 20px;
 }
 .hm3-category-wrapper .cate-box i {
   font-size: 40px;
   margin-bottom: 15px;
 }
+.hm3-category-wrapper .cate-border {
+  border-right: 1px solid rgb(164, 100, 46);
+  border-left: 1px solid rgb(164, 100, 46);
+}
 
 .hm3-info-wrapper {
-  background-color: #f6f6f6;
+  background-color: #fdf7f1;
 }
 .hm3-info-wrapper img {
   height: 100%;
@@ -1581,10 +1525,11 @@ h5 {
   background-color: #000;
   color: #fff;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
   text-align: center;
+  font-size: 12px;
 }
 .hm3-info-wrapper .value-points .ab-points {
   color: #000;
@@ -1856,10 +1801,11 @@ h5 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.booking-form h2 {
+.booking-form h3 {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 1.8em;
+  font-weight: 700;
+  font-size: 37px;
 }
 
 .booking-form form {
@@ -1902,6 +1848,18 @@ h5 {
 
 .advanced-booking:hover {
   text-decoration: underline;
+}
+
+.room-offer-wrap {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+.room-offer-wrap h3 {
+  font-weight: 700;
+  font-size: 37px;
 }
 
 /*====================================================================
@@ -2116,7 +2074,7 @@ h5 {
   background-color: #a4642e;
 }
 .navbar .logo-img {
-  width: 175px;
+  width: 90px;
   display: block;
 }
 .navbar .logo-img.dark-mode {
@@ -2678,7 +2636,7 @@ nav.side-nav .list-item .nav-item {
 }
 
 .value-wrapper {
-  background-color: #f6f6f6;
+  background-color: #fdf7f1;
   padding: 2rem 0;
 }
 .value-wrapper .value-box {
@@ -2695,7 +2653,7 @@ nav.side-nav .list-item .nav-item {
 }
 
 .room-wrapper {
-  background-color: #f6f6f6;
+  background-color: #fdf7f1;
 }
 
 .ab-room-grid {
@@ -2876,7 +2834,7 @@ nav.side-nav .list-item .nav-item {
 }
 
 .journey {
-  background-color: #f6f6f6;
+  background-color: #fdf7f1;
 }
 
 .container {
@@ -3300,4 +3258,27 @@ nav.side-nav .list-item .nav-item {
 }
 .contact-section__widget span {
   margin-left: 10px;
+}
+
+.contact3-info-wrapper {
+  background-image: url("../img/cont3-info-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.contact3-info-wrapper .cont2-box {
+  background-color: rgba(255, 255, 255, 0.8509803922);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.contact3-form-wrap {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

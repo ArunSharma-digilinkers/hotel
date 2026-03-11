@@ -166,3 +166,30 @@
 
 
 
+.contact3-info-wrapper {
+	background-image: url('../img/cont3-info-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+
+
+	.cont2-box {
+		background-color: rgba(255, 255, 255, 0.8509803922);
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		padding: 20px;
+		border-radius: 20px;
+	}
+}
+
+
+.contact3-form-wrap {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    border-radius: 20px
+}
+
+

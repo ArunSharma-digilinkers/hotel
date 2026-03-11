@@ -31,7 +31,7 @@
                         </div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<div class="cate-box">
+						<div class="cate-box cate-border">
 							<div class="cate-icon-box">
 								<i class="fas fa-concierge-bell"></i>
 							</div>

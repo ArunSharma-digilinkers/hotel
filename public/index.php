@@ -48,7 +48,7 @@
                              <img src="img/hm-hero-img.png" class="img-fluid br20">
 						 </div>
 						 <div class="col-lg-6 col-md-6 col-sm-12">
-							<div class="hero-txt-box">
+							<div class="hero-txt-box mrt30">
 								<h3>Experience Luxury & Comfort</h3>
 								<h5>Discover World-Class Service, Stunning Views & Unmatched Comfort</h5>
 								<p>
@@ -68,11 +68,13 @@
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<div class="head-box text-center">
 							    <h3>Explore Our Rooms & Suites</h3>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum, saepe sapiente distinctio nemo aliquid corrupti nesciunt, eius fuga itaque recusandae odit dolor optio. Neque soluta numquam sequi vel sunt.</p>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum, saepe sapiente distinctio nemo aliquid corrupti nesciunt, eius fuga itaque recusandae odit dolor optio. Neque soluta numquam sequi vel sunt.
+								</p>
                             </div>
 						</div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="property-card">
+                        <div class="col-lg-4 col-md-4 col-sm-12 ">
+                            <div class="property-card mrb30">
 								<div class="image-wrapper">
 									<img src="img/luxury-bg-img.jpg" alt="New York Property">
 									<div class="info-overlay">
@@ -97,7 +99,7 @@
 							</div>
                         </div>
 						<div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="property-card">
+                            <div class="property-card mrb30">
 								<div class="image-wrapper">
 									<img src="img/family-room-img.jpg" alt="New York Property">
 									<div class="info-overlay">
@@ -169,9 +171,9 @@
 							</div>
 						</div>
 						<div class="col-lg-5 col-md-5 col-sm-12">
-							<img src="img/hm-service-img.jpg" class="img-fluid br20">
+							<img src="img/hm-service-img.jpg" class="img-fluid br20 mrb30">
 						</div>
-						<div class="col-lg-7 col-md-7 col-sm-12 mt35 pl30">
+						<div class="col-lg-7 col-md-7 col-sm-12 mt35">
 							
 							<p>
 								At [Your Hotel Name], we believe in creating a memorable stay with every detail thoughtfully designed for your comfort. Whether you're here for business or leisure, our commitment is to provide exceptional service and a peaceful environment where you can relax and recharge. From our elegant rooms to our attentive staff, we strive to make your experience truly remarkable.

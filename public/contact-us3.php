@@ -12,7 +12,7 @@
             <img src="img/cont3-banner.jpg" class="img-fluid">  
         </div>
 
-        <section class="section contact-wrapper page-section">
+        <section class="section contact-wrapper page-section mt-4">
 			<div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-md-10  offset-md-1 col-sm-12 text-center mb-4">

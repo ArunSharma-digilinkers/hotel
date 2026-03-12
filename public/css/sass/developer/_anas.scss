@@ -516,6 +516,14 @@ align-items: flex-start;
 
 //////////////////////////////// HOME PAGE 3 CSS //////////////////////////////// 
 
+.hm-banner-wrap {
+    background-image: url('../img/home3-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
 .hm3-category-wrapper {
     background-color: $color-background;
 
@@ -930,3 +938,170 @@ align-items: flex-start;
         font-size: 37px;
     }
 }
+
+
+
+///////////////////// MOBILE RESPONSIVE CSS ///////////////////
+
+/* Large devices */
+@media (max-width: 1200px) {}
+
+/* Tablets */
+@media (max-width: 992px) {}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .navbar .navbar-brand .logo-img {
+        width: 75px;
+    }
+
+    h3 {
+    font-weight: 700;
+    font-size: 25px;
+   }
+
+   .mrt20 {
+      margin-top: 20px;
+   }
+
+   .mrt30 {
+      margin-top: 30px;
+   }
+
+   .mrb20 {
+      margin-bottom: 20px;
+   }
+
+   .mrb30 {
+      margin-bottom: 30px;
+   }
+
+   .head-box {
+     padding: 0;
+   }
+
+   .cta-wrapper .cta-box h2 {
+    font-size: 2.2rem;
+  }
+
+////// HOME 2 //////
+
+  .hero {
+    background-image: url(../img/hero-banner-h2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 45%;
+    padding: 100px;
+    background-color: transparent;
+
+        .hero-content {
+           display: none;
+       }
+  }
+
+  .home2-info {
+     padding: 0;
+  }
+
+  .home2-booking {
+     padding: 100px 0;
+  }
+
+  .hotel-img-wrap {
+    padding: 100px 0 200px 0;
+  }
+
+////// HOME 3 //////
+
+  .hm3-category-wrapper .cate-border {
+    border: none;
+  }
+
+  .find-wrap .booking-bar {
+    display: block;
+    
+
+    .booking-field select {
+        margin-bottom: 20px;
+    }
+  }
+
+  .hm3-info-wrapper .value-points .ab-points {
+    font-size: 15px;
+  }
+
+  .blog-header {
+    padding: 0;
+  }
+
+  .ab-header-box {
+    padding: 0 !important;
+  }
+
+
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+} 
+
+.timeline-item {
+    width: 100% !important;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.timeline-line {
+    display: none;
+}
+
+.timeline-item:not(:last-child)::after {
+    display: none;
+}
+
+.circle {
+    width: 55px;
+    height: 55px;
+    font-size: 16px;
+}
+
+.year-description {
+    font-size: 14px;
+}
+
+.achievements {
+
+    .achievements-title {
+            font-size: 36px;
+    }
+
+    .achievements-description {
+        font-size: 17px;
+    }
+
+}
+
+
+.ab3-who-wrapper .who-box {
+    text-align: start !important;
+}
+
+.ab3-why-wrapper {
+   padding: 100px 0 0 0 !important;
+}
+
+   .why-box {
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px !important;
+    border-radius: 20px;
+   }
+
+
+}
+
+/* Small mobile */
+@media (max-width: 576px) {}

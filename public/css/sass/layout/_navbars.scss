@@ -105,6 +105,22 @@
 }
 
 
+.navbar-toggler {
+    border: 1px solid #fff;
+    padding: 8px 13px;
+    background: transparent;
+    border-radius: 6px;
+}
+
+.navbar-toggler img {
+    width: 30px;
+    height: auto;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 /* Updated dropdown menu appearance */
 .dropdown-menu {
     background-color: #fff;

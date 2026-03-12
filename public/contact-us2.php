@@ -32,9 +32,7 @@
 							<div class="contact-info-section">
 
 								<div class="row">
-  
-
-									<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="col-lg-4 col-md-4 col-sm-12 mrb30">
 										<div class="contact-section__widget">
 											<h5 class="mb-3">Talk to us:</h5>
 											<p><i class="fa-solid fa-phone-volume"></i><a href=""><span> +91-123456789</span></a></p>
@@ -42,7 +40,7 @@
 										</div> 
 									</div>   
 
-									<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="col-lg-4 col-md-4 col-sm-12 mrb30">
 										<div class="contact-section__widget">
 											<h5 class="mb-3">Address:</h5>
 											<p>

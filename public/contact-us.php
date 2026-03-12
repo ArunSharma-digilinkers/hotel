@@ -63,7 +63,7 @@
 					</div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 mb-4">
+                <div class="col-lg-6 col-md-6 mb-4 mrt30">
                     <div class="contact-form-wrap">
 
                         <div class="row">

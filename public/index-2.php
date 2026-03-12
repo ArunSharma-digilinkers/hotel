@@ -116,7 +116,7 @@
                             </div>
                             <div class="txt-box">
                                 <h4>
-                                    Spa & Wellness
+                                    Fine Dinning
                                 </h4>
                             </div>
                         </div>
@@ -239,12 +239,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="side-articles">
+                    <div class="side-articles mrt30">
                         <div class="side-article">
                             <img src="img/deluxe-rooms.jpg" alt="Article 1" />
                             <div class="side-article-content">
                             <h5>Hotels Go Beyond Accommodation to Create Memorable Stays</h5>
-                            <p>Discover how hotels not only provide a place to stay, but also create memorable experiences for...</p>
+                            <p>
+                                Discover how hotels not only provide a place to stay, but also create memorable experiences for...
+                            </p>
                             <a href="#">Read More →</a>
                             </div>
                         </div>
@@ -252,7 +254,9 @@
                             <img src="img/deluxe-rooms.jpg" alt="Article 2" />
                             <div class="side-article-content">
                             <h5>Luxury Reimagined: Iconic Hotels Undergo Stunning Renovations</h5>
-                            <p>Be enchanted by the extraordinary transformations experienced by iconic hotels through...</p>
+                            <p>
+                                Be enchanted by the extraordinary transformations experienced by iconic hotels through...
+                            </p>
                             <a href="#">Read More →</a>
                             </div>
                         </div>
@@ -260,7 +264,9 @@
                             <img src="img/deluxe-rooms.jpg" alt="Article 3" />
                             <div class="side-article-content">
                             <h5>Preserving History Through Unique Accommodations</h5>
-                            <p>Reveals how heritage hotels preserve history through unique accommodations, providing a cultural...</p>
+                            <p>
+                                Reveals how heritage hotels preserve history through unique accommodations, providing a cultural...
+                            </p>
                             <a href="#">Read More →</a>
                             </div>
                         </div>

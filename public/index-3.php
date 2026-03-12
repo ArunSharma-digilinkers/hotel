@@ -9,8 +9,8 @@
 	<div class="main-wrapper">
 
 
-    <div class="banner-wrap">
-        <img src="img/home3-banner.jpg">
+    <div class="hm-banner-wrap">
+       
     </div>
 
 
@@ -159,7 +159,7 @@
                     <div class="col-lg-6 col-md-6 col-m-12">
                         <img src="img/hm3-info-img.jpg" class="img-fluid br20">
                     </div>
-                    <div class="col-lg-6 col-md-6 col-m-12">
+                    <div class="col-lg-6 col-md-6 col-m-12 mrt30">
                         <h3>Powering Seamless Guest Experiences</h3>
                         <p>
                             Deliver exceptional service at every touchpoint. Our all-in-one hotel management solution simplifies daily operations, boosts team productivity, and ensures guests enjoy smooth, unforgettable stays. Whether you're running a boutique hotel or a full-scale resort, our platform adapts to your needs — so you can focus on hospitality, not the hassle.
@@ -213,7 +213,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mrb30">
                         <div class="blog-card">
                             <div class="blog-image">
                                 <img src="img/hm-info-img.jpg" class="img-fluid" alt="Luxury Hotel" />
@@ -235,7 +235,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mrb30">
                         <div class="blog-card">
                             <div class="blog-image">
                                 <img src="img/hm-info-img.jpg" class="img-fluid" alt="Luxury Hotel" />

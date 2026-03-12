@@ -62,10 +62,12 @@
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="head-box text-center">
                         <h3>Explore Our Rooms & Suites</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum, saepe sapiente distinctio nemo aliquid corrupti nesciunt, eius fuga itaque recusandae odit dolor optio. Neque soluta numquam sequi vel sunt.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum, saepe sapiente distinctio nemo aliquid corrupti nesciunt, eius fuga itaque recusandae odit dolor optio. Neque soluta numquam sequi vel sunt.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 mrb30">
                     <div class="property-card">
                         <div class="image-wrapper">
                             <img src="img/luxury-bg-img.jpg" alt="New York Property">
@@ -90,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 mrb30">
                     <div class="property-card">
                         <div class="image-wrapper">
                             <img src="img/family-room-img.jpg" alt="New York Property">
@@ -146,10 +148,12 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="img/philosophy-img.jpg" class="img-fluid br20">
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 mrt30">
                     <div class="philosophy-box">
                         <h3>Our Philosophy</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta nobis, obcaecati omnis alias, iusto sequi repudiandae ducimus aperiam eaque officiis temporibus odio molestias! Alias necessitatibus quo quaerat voluptatem harum, blanditiis vitae itaque fuga ratione?</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta nobis, obcaecati omnis alias, iusto sequi repudiandae ducimus aperiam eaque officiis temporibus odio molestias! Alias necessitatibus quo quaerat voluptatem harum, blanditiis vitae itaque fuga ratione.
+                        </p>
 
                         <div class="philosopy-value-box">
                             <div class="img-box">
@@ -196,7 +200,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mrb30">
                         <div class="blog-card">
                             <div class="blog-image">
                                 <img src="img/hm-info-img.jpg" class="img-fluid" alt="Luxury Hotel" />
@@ -218,7 +222,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mrb30">
                         <div class="blog-card">
                             <div class="blog-image">
                                 <img src="img/hm-info-img.jpg" class="img-fluid" alt="Luxury Hotel" />

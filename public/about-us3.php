@@ -52,7 +52,9 @@
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="why-choose-box">
                         <h3>Why Choose Us</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ducimus nesciunt distinctio iusto explicabo dignissimos dolores tenetur a qui nam minus id necessitatibus vel laudantium assumenda cupiditate eveniet rem rerum.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ducimus nesciunt distinctio iusto explicabo dignissimos dolores tenetur a qui nam minus id necessitatibus vel laudantium assumenda cupiditate eveniet rem rerum.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -62,32 +64,38 @@
     <div class="why-wrap">
        <div class="container">
           <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="col-lg-4 col-md-4 col-sm-12 mrt30">
                   <div class="why-box">
                       <div class="img-box">
                           <img src="img/guest-support-img.png" class="img-fluid">
                       </div>
                       <h5>24/7 Guest Support </h5>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolores ullam possimus?</p>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolores ullam possimus?
+                    </p>
                   </div>
               </div>
               
-              <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="col-lg-4 col-md-4 col-sm-12 mrt30">
                   <div class="why-box">
                       <div class="img-box">
                           <img src="img/staff-img.png" class="img-fluid">
                       </div>
                       <h5>Trained & Friendly staff</h5>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolores ullam possimus?</p>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolores ullam possimus?
+                    </p>
                   </div>
               </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="col-lg-4 col-md-4 col-sm-12 mrt30">
                   <div class="why-box">
                       <div class="img-box">
                           <img src="img/prime-location.png" class="img-fluid">
                       </div>
                       <h5>Prime Location</h5>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolores ullam possimus?</p>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolores ullam possimus?
+                    </p>
                   </div>
               </div>
           </div>
@@ -102,22 +110,30 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
                <img src="img/ab3-journey-img.jpg" class="img-fluid br20">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 mrt30">
                 <section class="ab3-journey-box">
                   <h3>Our Journey</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat enim officia pariatur magnam molestias eaque inventore non molestiae consequuntur! Quis!</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat enim officia pariatur magnam molestias eaque inventore non molestiae consequuntur! Quis!
+                </p>
                   <div class="ab3-timeline">
                     <div class="ab3-timeline-item">
                       <h4>2008</h4>
-                      <p>Our humble beginnings with a commitment to exceptional service.</p>
+                      <p>
+                        Our humble beginnings with a commitment to exceptional service.
+                     </p>
                     </div>
                     <div class="ab3-timeline-item">
                       <h4>2015</h4>
-                      <p>Expanded to new locations with increasing guest satisfaction.</p>
+                      <p>
+                        Expanded to new locations with increasing guest satisfaction.
+                      </p>
                     </div>
                     <div class="ab3-timeline-item">
                       <h4>2022</h4>
-                      <p>Continued innovation in hospitality management.</p>
+                      <p>
+                        Continued innovation in hospitality management.
+                     </p>
                     </div>
                   </div>
                 </section>
@@ -127,54 +143,7 @@
     </div>
 
 
-    <div class="home-testimonials-wrap section-entry">
-            <div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 p-0"></div>
-           
-					<div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="testimonials owl-carousel owl-theme">
-                            <div class="item">
-								<div class="testimonials-card">
-									<div class="review-details">
-										<p>
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cumque? Ex perferendis provident non autem, placeat ea officiis harum impedit. Lorem ipsum dolor sit amet.
-										</p>
-									</div>
-									<div class="testimonial-info">
-										<div class="review-title">
-											<h5>Rakesh Mehta</h5>
-											<h6>Happy Client</h6>
-										</div>
-										<div class="review-img">
-											<img src="<?php echo $path; ?>img/profile-2.png" alt="client review" class="img-fluid">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimonials-card">
-									<div class="review-details">
-										<p>
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cumque? Ex perferendis provident non autem, placeat ea officiis harum impedit. Lorem ipsum dolor sit amet.
-										</p>
-									</div>
-									<div class="testimonial-info">
-										<div class="review-title">
-											<h5>Praveen Dubey</h5>
-											<h6>Happy Client</h6>
-										</div>
-										<div class="review-img">
-											<img src="<?php echo $path; ?>img/profile-2.png" alt="client review" class="img-fluid">
-										</div>
-									</div>
-								</div>
-							</div>
-                        </div>
-					</div>
-				</div>
-			</div>
-		</div>
+    
 
 
 
